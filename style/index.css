@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 4vw;
+    width: 100%;
+    background-color: #373b43;
+}
+
+.container_{
+    width: 90%;
+    height: 82vh;
+    background-color: #e8ebef;
+    margin: auto;
+}
+
+.hello_text{
+    font-size: 5.5vw;
+}
+
+.Login_text{
+    color: rgb(131, 131, 131);
+}
+
+@media screen and (max-width: 1200px) {
+    header{
+        height: 46px;
+    }
+
+    .hello_text{
+        font-size: 79px;
+    }
+}
+

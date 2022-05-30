@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 4vw;
+    width: 100%;
+    background-color: #373b43;
+}
+
+input{
+    height: 42px;
+    outline: none;
+    border: 2px solid #e6e6e6;
+    padding-left: 0.8vw;
+}
+
+button{
+    height: 48px;
+    background-color: #440ddc;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.Container_{
+    width: 28vw;
+}
+
+.Login_text{
+    color: rgb(131, 131, 131);
+}
+
+li{
+    border-top: 1px solid rgb(131, 131, 131);;
+    list-style: none;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+}
+
+.p_list{
+    margin: auto;
+}
+
+.liens{
+    margin-right: 1.1vw;
+}
+
+@media screen and (max-width: 780px) {
+    header{
+        height: 46px;
+    }
+
+    .Container_{
+        width: 100%;
+    }
+}
+
